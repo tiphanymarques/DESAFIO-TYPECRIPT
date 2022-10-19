@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    margin: 50px;
+}
+
+header{
+    background-color: #F8F9FA ;
+    display: flex;
+    align-items: flex-start;
+    Height:24px;
+
+}
+
+.pacote
+input{
+    Height:38px;
+    Width:589px;
+}
+
+.descrição
+textarea{
+    Width:555px;
+    Height:161px;
+}
+
+.pacote_status_descrição{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.status_e_data{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   
+}
+
+.toda_parte{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    background-color:  #8458FF;
+    align-items: center;
+    width: 77px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+.data_da_viagem
+input{
+    Width:293px;
+    Height:38px;
+
+}
+
+.botao_editar{
+    background-color: #FFC107;;
+}
+
+.botao_excluir{
+    background-color: #DC3545;;
+}
+
+
+.pacoteX{
+    border: 1px solid #DEE2E6;
+    padding: 30px 30px 30px 30px;
+}
+
+.botoes{
+   display: flex ;
+   margin: 30px;
+  
+}
