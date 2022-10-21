@@ -1,9 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
 }
+
+body{
+    margin: auto;
+    height: 1718px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
 
 main{
     margin: 50px;
@@ -52,6 +60,7 @@ button{
     display: flex;
     justify-content: center;
     background-color:  #8458FF;
+    border: #8458FF;
     align-items: center;
     width: 77px;
     height: 40px;
@@ -65,7 +74,7 @@ h2{
     justify-content: center;
 }
 
-.botao{
+.botao_pai{
     display: flex;
     justify-content: center;
    
@@ -82,10 +91,12 @@ input{
 
 .botao_editar{
     background-color: #FFC107;;
+    border: #FFC107;
 }
 
 .botao_excluir{
     background-color: #DC3545;;
+    border: #DC3545;
 }
 
 
@@ -98,4 +109,13 @@ input{
    display: flex ;
    margin: 30px;
   
+}
+
+.parte_final{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #F6511D;
 }
